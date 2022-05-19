@@ -13,6 +13,8 @@ import javax.validation.constraints.Size;
 @Entity
 public class CursoModel extends Entidade{
 
+    protected CursoModel() {}
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
